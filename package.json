@@ -1,0 +1,19 @@
+{
+  "name": "opencode-runner",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Flag-driven OpenCode SDK runner for sequential or parallel command execution against a target repo",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "tsx src/runner.ts",
+    "dev": "tsx src/runner.ts"
+  },
+  "dependencies": {
+    "@opencode-ai/sdk": "latest"
+  },
+  "devDependencies": {
+    "tsx": "latest",
+    "typescript": "latest"
+  }
+}
